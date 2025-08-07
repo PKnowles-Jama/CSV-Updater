@@ -8,7 +8,7 @@ from CSV_Updater_Functions import process_csv_data
 class CSVUpdaterGUI(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Excel Indentation Generator") # Title of app in header bar
+        self.setWindowTitle("CSV Updater") # Title of app in header bar
         
         # Open app in the center of the screen & set size
         screen = QApplication.primaryScreen() # Scrape the correct screen to open on
